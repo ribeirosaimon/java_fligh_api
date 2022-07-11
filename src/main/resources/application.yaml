@@ -1,0 +1,9 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/FlightApi_v1
+      database: FlightApi_v1
+
+server:
+  servlet:
+    context-path: /api
